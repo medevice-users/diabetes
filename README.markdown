@@ -134,13 +134,13 @@ them, add it to the list.
 
 * asset management/inventory
 * basic auditing/accounting/record keeping
-** [opendatabetes](http://opendatabetes.com) - an open standard for recording/sharing diabetes data - very early days 
-** [sanguine](http://sanguinediabetes.com) - WIP glucose/insulin/pump tracking app. In prototype, to be rebuilt using web technologies
+  * [opendatabetes](http://opendatabetes.com) - an open standard for recording/sharing diabetes data - very early days 
+  * [sanguine](http://sanguinediabetes.com) - WIP glucose/insulin/pump tracking app. In prototype, to be rebuilt using web technologies
 * stats/data/mining
 * authorization and authentication
 * transport-independence - orchestrate which sockets, ports to use, etc.
-** https://gist.github.com/4520642
-** [netspective](https://github.com/netspective) may be of help
+  * https://gist.github.com/4520642
+  * [netspective](https://github.com/netspective) may be of help
 
 
 
@@ -153,10 +153,11 @@ others?
 Also see ABBI: http://wiki.siframework.org/ABBI+Pull+Workgroup for
 OAUTH based transport.
 
-Here's an example of an app already "in the wild", it should be able to either
-poll one of our compatible servers and fetch/store medical records and
-annotations.  https://github.com/medevice-users/opendatabetes
-http://www.sanguinediabetes.com/blog/
+[Sanguine](http://sanguinediabetes.com) is an app already "in the wild", it
+should be able to either poll one of our compatible servers and fetch/store
+medical records and annotations.
+[opendatabetes](http://opendatabetes.com) - an open standard for recording/sharing diabetes data - very early days 
+
 
 #### Math
 
