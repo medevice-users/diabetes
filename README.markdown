@@ -1,4 +1,3 @@
-
 # Hacking diabetes
 
 Fidelity of Care
@@ -135,11 +134,15 @@ them, add it to the list.
 
 * asset management/inventory
 * basic auditing/accounting/record keeping
+** [opendatabetes](http://opendatabetes.com) - an open standard for recording/sharing diabetes data - very early days 
+** [sanguine](http://sanguinediabetes.com) - WIP glucose/insulin/pump tracking app. In prototype, to be rebuilt using web technologies
 * stats/data/mining
 * authorization and authentication
 * transport-independence - orchestrate which sockets, ports to use, etc.
 ** https://gist.github.com/4520642
 ** [netspective](https://github.com/netspective) may be of help
+
+
 
 #### Vendor transports
 
