@@ -91,6 +91,8 @@ design.
 
 #### Visualizations
 
+Add your visualization here!
+
 If you've created a visualization, add it to the list.  Include some sort of
 self-attribution.
 
@@ -106,6 +108,10 @@ self-attribution.
   * [playing with time scales](https://gist.github.com/4292338)
   * [glucose scatter with pan/zoom](https://gist.github.com/4265100)
   * [hello world, glucose scatter](https://gist.github.com/4241973)
+    * http://bost.ocks.org/mike/cubism/intro/
+* http://ieg.ifs.tuwien.ac.at/projects/HorizonVis/
+* http://www.cvast.tuwien.ac.at/projects/horizonvis
+* 
 
 #### Firmware
 
@@ -185,11 +191,24 @@ data, add it to the list:
   --  dubs is about understanding past and ongoing therapy by
   performing simulations to measure what were previously hidden and
   implicit expectations.
+* http://www.ncbi.nlm.nih.gov/pubmed/10994512
+* http://www.2aida.net/welcome/
+* http://www.ncbi.nlm.nih.gov/pubmed?itool=pubmed_Abstract&DbFrom=pubmed&Cmd=Link&LinkName=pubmed_pubmed&IdsFromResult=9183777&retmode=ref
+* http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320833/
+* http://www.2aida.org/aida/research2.htm
 
 #### Device IO
 
 The data on these devices belongs to us.  Let's get audit the data:
-* [insulaudit](https://github.com/bewest/insulaudit)
+* [insulaudit](https://github.com/bewest/insulaudit) - this project consumes many libraries to re-format data in a prefered format
+
+##### Decoder rings
+These projects collect packet captures, provide tests suites, and tools to
+communicate with medical devices.  Application authors can use these
+tools to analyze and debug devices, exercise their decoding skills, or
+contribute to language-independent test suites, or even help implement
+the protocols.
+
 * [decoding-carelink](https://github.com/bewest/decoding-carelink)
 * [decoding-omnipod](https://github.com/bewest/decoding-omnipod)
 * [decoding-onetouchping](https://github.com/bewest/decoding-onetouchping)
@@ -205,12 +224,38 @@ analyze, some need captures!
 #### Git based medical record?
 
 Would solve transport and versioning issues.
+* `git-phr` - if only!
 
 #### Web Development
 
-* gallery of visualizations, gist-based?
+* gallery of visualizations, gist-based? *proposed*:
+```
+databetics.com/ -> here (medevice/diabetes)
+databetics.com/visual/ -> here (medevice/diabetes/visual)
+databetics.com/formats/ -> damon's databetes?
+databetics.com/projects/ -> better list of projects we actually commit on
+short term projects:
+  iPancreas: re-usable, blog-posting tool
+  visualizations: need to make it easy for more people to make
+    graphs and charts, to iterate on UI, etc... this is essentially UI
+    development broken down, feature by feature
+  insulaudit: pumping data out so that sanguine, ipancreas and others
+              can consume, pushing support for more devices,
+              implementing in other languages?
+```
 * gallery of advocacy, or maybe a "planet" style aggregator, with
   diabetesmine at the helm?
 * docs, and technical writing
 * templating for nice reports such as Jana's, we need to make it
   *easy* to produce documents to share like that.
+
+* documenting what we've done for the FDA/creating a suite of IP-free technology requires documentation!
+  * http://www.ncbi.nlm.nih.gov/pubmed/22226258
+  * http://www.w3.org/Consortium/Patent-Policy-20040205/
+  * http://tools.ietf.org/html/draft-morton-ippm-advance-metrics-02
+  * http://www.ncbi.nlm.nih.gov/pubmed/20307387
+  * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2864162/
+  * http://www.fda.gov/MedicalDevices/ProductsandMedicalProcedures/GeneralHospitalDevicesandSupplies/InfusionPumps/ucm202511.htm
+  * http://www.fda.gov/medicalDevices/DeviceRegulationandGuidance/GuidanceDocuments/ucm206153.htm
+  * http://www.fda.gov/MedicalDevices/ProductsandMedicalProcedures/HomeHealthandConsumer/ConsumerProducts/ArtificialPancreas/ucm259555.htm
+
