@@ -102,9 +102,10 @@ self-attribution.
 
 * glucosurfer
 * gists:
-** [playing with time scales](https://gist.github.com/4292338)
-** [glucose scatter with pan/zoom](https://gist.github.com/4265100)
-** [hello world, glucose scatter](https://gist.github.com/4241973)
+
+  * [playing with time scales](https://gist.github.com/4292338)
+  * [glucose scatter with pan/zoom](https://gist.github.com/4265100)
+  * [hello world, glucose scatter](https://gist.github.com/4241973)
 
 #### Firmware
 
@@ -120,6 +121,12 @@ For new devices, and to audit old devices.
 #### Hardware
 
 List your hardware designs here.
+Reference designs for pumps, sensors, meters, connectors, etc...
+* http://www.ncbi.nlm.nih.gov/pubmed/22226258
+* http://www.ti.com/product/rm48l950
+* [reference infusion pump design](http://www.ti.com/solution/infusion_pump)
+* [reference meter design](http://www.ti.com/solution/medical_meters_portable)
+* http://www.cooking-hacks.com/index.php/ehealth-sensors-complete-kit-biometric-medical-arduino-raspberry-pi.html
 
 #### Backend
 
@@ -134,11 +141,14 @@ them, add it to the list.
 
 * asset management/inventory
 * basic auditing/accounting/record keeping
+
   * [opendatabetes](http://opendatabetes.com) - an open standard for recording/sharing diabetes data - very early days 
   * [sanguine](http://sanguinediabetes.com) - WIP glucose/insulin/pump tracking app. In prototype, to be rebuilt using web technologies
+
 * stats/data/mining
 * authorization and authentication
 * transport-independence - orchestrate which sockets, ports to use, etc.
+
   * https://gist.github.com/4520642
   * [netspective](https://github.com/netspective) may be of help
 
@@ -146,8 +156,10 @@ them, add it to the list.
 
 #### Vendor transports
 
+Bus consumers.
+
 Adapters for other web services:
-glucosurfer, sugarstats, VISTA OSEHRA, INDIVO/SMART (CHIP), netspective,
+glucosurfer, sugarstats, VISTA OSEHRA, INDIVO/SMART (CHIP), [@netspective],
 others?
 
 Also see ABBI: http://wiki.siframework.org/ABBI+Pull+Workgroup for
@@ -157,6 +169,8 @@ OAUTH based transport.
 should be able to either poll one of our compatible servers and fetch/store
 medical records and annotations.
 [opendatabetes](http://opendatabetes.com) - an open standard for recording/sharing diabetes data - very early days 
+
+* [indivo](http://docs.indivohealth.org/en/v2.0.0/schemas/index.html) python/django friendly
 
 
 #### Math
