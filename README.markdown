@@ -171,10 +171,11 @@ others?
 Also see ABBI: http://wiki.siframework.org/ABBI+Pull+Workgroup for
 OAUTH based transport.
 
-[Sanguine](http://sanguinediabetes.com) is an app already "in the wild", it
+* [connect](https://github.com/CONNECT-Solution/CONNECT)
+* [Sanguine](http://sanguinediabetes.com) is an app already "in the wild", it
 should be able to either poll one of our compatible servers and fetch/store
 medical records and annotations.
-[opendatabetes](http://opendatabetes.com) - an open standard for recording/sharing diabetes data - very early days 
+* [opendatabetes](http://opendatabetes.com) - an open standard for recording/sharing diabetes data - very early days 
 
 * [indivo](http://docs.indivohealth.org/en/v2.0.0/schemas/index.html) python/django friendly
 
