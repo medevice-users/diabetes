@@ -119,6 +119,9 @@ For new devices, and to audit old devices.
 * https://github.com/bewest/insulaudit/tree/master/hacking
   Includes pictures of working beaglebone, orchestrating the "data bus" between
   several connected devices, and the internet at large.
+* [insulware](https://github.com/n-west/insulware) - mash up
+  beaglebone, meta-insulaudit, and insulaudit altogether in one
+  package to audit gucometers over the internet using 3G!
 
 * [open embedded beaglebone firmware](https://github.com/n-west/meta-insulaudit)
 
