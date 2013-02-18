@@ -111,7 +111,7 @@ self-attribution.
     * http://bost.ocks.org/mike/cubism/intro/
 * http://ieg.ifs.tuwien.ac.at/projects/HorizonVis/
 * http://www.cvast.tuwien.ac.at/projects/horizonvis
-* 
+* http://www.ManageBGL.com, online simulator with prediction and API
 
 #### Firmware
 
@@ -155,7 +155,10 @@ them, add it to the list.
   * [sanguine](http://sanguinediabetes.com) - WIP glucose/insulin/pump tracking app. In prototype, to be rebuilt using web technologies
 
 * stats/data/mining
+  * [ManageBGL] (http://www.ManageBGL.com) - prediction, coaching
+  * 
 * authorization and authentication
+  * [ManageBGL] (http://www.ManageBGL.com) - authentication, data sharing
 * transport-independence - orchestrate which sockets, ports to use, etc.
 
   * https://gist.github.com/4520642
@@ -181,6 +184,7 @@ medical records and annotations.
 * [opendatabetes](http://opendatabetes.com) - an open standard for recording/sharing diabetes data - very early days 
 
 * [indivo](http://docs.indivohealth.org/en/v2.0.0/schemas/index.html) python/django friendly
+* [ManageBGL] (http://www.ManageBGL.com) - centralized data store
 
 
 #### Math
