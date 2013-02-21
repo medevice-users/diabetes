@@ -111,6 +111,7 @@ self-attribution.
     * http://bost.ocks.org/mike/cubism/intro/
 * http://ieg.ifs.tuwien.ac.at/projects/HorizonVis/
 * http://www.cvast.tuwien.ac.at/projects/horizonvis
+* https://github.com/benrudolph/diabetes_vis
 * 
 
 #### Firmware
