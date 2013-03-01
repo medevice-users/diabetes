@@ -108,21 +108,31 @@ self-attribution.
   * [playing with time scales](https://gist.github.com/4292338)
   * [glucose scatter with pan/zoom](https://gist.github.com/4265100)
   * [hello world, glucose scatter](https://gist.github.com/4241973)
+  * todo:
+    * http://bl.ocks.org/mbostock/4736806
+    * https://gist.github.com/bewest/4710009
     * http://bost.ocks.org/mike/cubism/intro/
+    * [visualizing insulin](https://gist.github.com/bewest/5011908)
 * http://ieg.ifs.tuwien.ac.at/projects/HorizonVis/
 * http://www.cvast.tuwien.ac.at/projects/horizonvis
 * diabetes_vis: [github rails src](https://github.com/benrudolph/diabetes_vis), [demo](http://diabetesvis.herokuapp.com/diabetes/dashboard)
+* http://ciid.dk/education/portfolio/idp12/courses/data-visualisation/projects/blood-sugar-visualization/
 * 
 
 #### Firmware
 
 For new devices, and to audit old devices.
-* https://github.com/bewest/insulaudit/tree/master/hacking
+* [proxy modem: beaglebone + 3g modem + glucomter or insulin pump](https://github.com/bewest/insulaudit/tree/master/hacking)
   Includes pictures of working beaglebone, orchestrating the "data bus" between
   several connected devices, and the internet at large.
 * [insulware](https://github.com/n-west/insulware) - mash up
   beaglebone, meta-insulaudit, and insulaudit altogether in one
   package to audit gucometers over the internet using 3G!
+* [registration scripts](https://github.com/ehwest/cloudify) - demo
+  app to send SMS messages for registered users to [insulware]
+* [insulaudit in the cloud](https://github.com/bewest/insulaudit-ssh-tools)
+  Considering extending gitolite.  ssh based application that
+  sets up a transport, then uses insulaudit or related tools.
 
 * [open embedded beaglebone firmware](https://github.com/n-west/meta-insulaudit)
 
@@ -254,6 +264,15 @@ short term projects:
 * templating for nice reports such as Jana's, we need to make it
   *easy* to produce documents to share like that.
 
+#### other projects
+
+* apple https://github.com/kamexy/GlucoseLogger
+* apple https://github.com/mstoth/GlucoseReader
+* https://github.com/gandalfn/glucose-board
+* java https://github.com/jccgit/GlucoseTracker
+* [model of insulin and glucose](https://github.com/JohnCarlosReed/GlInGgModel)
+
+## Documentation
 * documenting what we've done for the FDA/creating a suite of IP-free technology requires documentation!
   * http://www.ncbi.nlm.nih.gov/pubmed/22226258
   * http://www.w3.org/Consortium/Patent-Policy-20040205/
