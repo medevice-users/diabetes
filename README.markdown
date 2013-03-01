@@ -285,6 +285,7 @@ Mostly personal loggers.
 * https://github.com/BrendanLeber/Doser
 * https://github.com/nielubowicz/iAbetes
 * https://github.com/pnbloem/DiabetesTracker
+* https://github.com/alexpeachey/digital-pancreas
 
 
 ## Documentation
