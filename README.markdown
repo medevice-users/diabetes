@@ -290,6 +290,25 @@ Mostly personal loggers.
 * https://github.com/rlaskey/dm-track
 * https://github.com/gitpan/Palm-DiabetesPilot
 * https://github.com/david-hathaway/BolusCalculator
+* https://github.com/Sushisugre/Glucose/tree/master/src/cn/edu/tongji/sse/glucosemeter
+* https://github.com/cubabit/WebService-GlucoseBuddy
+* iphone app https://github.com/bslayton/glu-iphone
+* python https://github.com/onelson/mreader
+* rails https://github.com/HaKr/diabetesdiary
+* python... https://github.com/onelson/mreader
+* linux/gtk https://github.com/flupzor/glucosemeter
+* MS web app https://github.com/healthmonitor/HealthMonitoringSystem
+* rails https://github.com/HaKr/diabetesdiary
+* rails https://github.com/flugsio/rails-glucosejournal
+* android https://github.com/flugsio/android-glucosejournal
+* https://github.com/antonio/ontrack-pretty-reports
+* https://github.com/TwelveBaud/diabot-plugins
+* accucheck schematics https://github.com/techniker/OpenACCPplus
+* schematics https://github.com/techniker/OpenWeCalla
+* formatting https://github.com/nezt/hl72xml/blob/master/python_src/sendHL7.py
+* SMART App https://github.com/arjunsanyal/smart_hv_merge_app
+* "TCL is a great language for processing HL7 messages" https://github.com/jamerfort/tclhl7
+* 
 
 
 
