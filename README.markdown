@@ -286,6 +286,11 @@ Mostly personal loggers.
 * https://github.com/nielubowicz/iAbetes
 * https://github.com/pnbloem/DiabetesTracker
 * https://github.com/alexpeachey/digital-pancreas
+* https://github.com/kmoormann/Paulescu
+* https://github.com/rlaskey/dm-track
+* https://github.com/gitpan/Palm-DiabetesPilot
+* https://github.com/david-hathaway/BolusCalculator
+
 
 
 ## Documentation
