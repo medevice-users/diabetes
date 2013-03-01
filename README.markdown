@@ -266,11 +266,26 @@ short term projects:
 
 #### other projects
 
+Mostly personal loggers.
+
 * apple https://github.com/kamexy/GlucoseLogger
 * apple https://github.com/mstoth/GlucoseReader
 * https://github.com/gandalfn/glucose-board
 * java https://github.com/jccgit/GlucoseTracker
 * [model of insulin and glucose](https://github.com/JohnCarlosReed/GlInGgModel)
+* https://github.com/yasminlucero/HBG
+* https://github.com/njonsson/glucodes
+* https://github.com/diminish7/glucotracker
+* MS https://github.com/kmoormann/ScarlettsDiabetesMobileLog
+* https://github.com/Firebright/Diabetes_data_analysis
+* https://github.com/techniker/OpenAvivaIRCom
+* https://github.com/pikesley/insulin
+* https://github.com/graham1034/Smith2012_insulin_signalling
+* https://github.com/damondouglas/yale_insulin_algorithm
+* https://github.com/BrendanLeber/Doser
+* https://github.com/nielubowicz/iAbetes
+* https://github.com/pnbloem/DiabetesTracker
+
 
 ## Documentation
 * documenting what we've done for the FDA/creating a suite of IP-free technology requires documentation!
