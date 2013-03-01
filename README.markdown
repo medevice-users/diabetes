@@ -162,6 +162,7 @@ them, add it to the list.
   * https://gist.github.com/4520642
   * [netspective](https://github.com/netspective) may be of help
 
+* [manageBGL](http://manageBGL.com) pump simulator and data visualization with API
 
 
 #### Vendor transports
@@ -180,7 +181,6 @@ OAUTH based transport.
 should be able to either poll one of our compatible servers and fetch/store
 medical records and annotations.
 * [opendatabetes](http://opendatabetes.com) - an open standard for recording/sharing diabetes data - very early days 
-
 * [indivo](http://docs.indivohealth.org/en/v2.0.0/schemas/index.html) python/django friendly
 
 
