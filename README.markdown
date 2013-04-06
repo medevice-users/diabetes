@@ -105,14 +105,15 @@ self-attribution.
 * glucosurfer
 * gists:
 
-  * [playing with time scales](https://gist.github.com/4292338)
-  * [glucose scatter with pan/zoom](https://gist.github.com/4265100)
-  * [hello world, glucose scatter](https://gist.github.com/4241973)
+  * [playing with time scales](http://bl.ocks.org/4292338) [src](https://gist.github.com/4292338)
+  * [glucose scatter with pan/zoom](http://bl.ocks.org/4265100) [src](https://gist.github.com/4265100)
+  * [hello world, glucose scatter](http://bl.ocks.org/4241973) [src](https://gist.github.com/4241973)
+  * [glucose heatmap](http://bl.ocks.org/bewest/5075497)
   * todo:
     * http://bl.ocks.org/mbostock/4736806
     * https://gist.github.com/bewest/4710009
     * http://bost.ocks.org/mike/cubism/intro/
-    * [visualizing insulin](https://gist.github.com/bewest/5011908)
+    * (bad) [visualizing insulin](http://bl.ocks.org/bewest/5011908) [src](https://gist.github.com/bewest/5011908)
 * http://ieg.ifs.tuwien.ac.at/projects/HorizonVis/
 * http://www.cvast.tuwien.ac.at/projects/horizonvis
 * diabetes_vis: [github rails src](https://github.com/benrudolph/diabetes_vis), [demo](http://diabetesvis.herokuapp.com/diabetes/dashboard)
