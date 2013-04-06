@@ -92,6 +92,7 @@ design.
 #### Visualizations
 
 Add your visualization here!
+* [Flickr organized visual index](http://www.flickr.com/photos/dataviz/)
 
 If you've created a visualization, add it to the list.  Include some sort of
 self-attribution.
