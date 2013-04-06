@@ -213,6 +213,8 @@ data, add it to the list:
 * http://www.ncbi.nlm.nih.gov/pubmed?itool=pubmed_Abstract&DbFrom=pubmed&Cmd=Link&LinkName=pubmed_pubmed&IdsFromResult=9183777&retmode=ref
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320833/
 * http://www.2aida.org/aida/research2.htm
+* http://oucsace.cs.ohiou.edu/~marling/smarthealth/projects.html
+* 
 
 #### Device IO
 
