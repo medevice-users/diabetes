@@ -8,9 +8,12 @@ medical field, therapies for chronic disease lacks enough
 transparency and credibility to humanely empower users to
 manage therapy.
 
+## Insulaudit Agent
+![insulaudit agent](https://raw.github.com/medevice-users/diabetes/master/3g-beagle-nextlink.JPG)
+* [proxy modem: beaglebone + 3g modem + glucomter or insulin pump](https://github.com/bewest/insulaudit/tree/master/hacking)
+* [securely proxy big data health services in the cloud](https://github.com/bewest/insulaudit-ssh-tools)
 
-Diabetes Data Bus
-=================
+## Diabetes Data Bus
 There's a rising notion of a diabetes data bus.  A system
 which integrates data collected from a variety of systems,
 and communicates that data to authorized users.  In
