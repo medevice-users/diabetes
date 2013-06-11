@@ -1,0 +1,8 @@
+<section>
+  <h1>Medevice/diabetes: intro</h1>
+  <p>Many hands make light work.</p>
+  {% capture intro_aside %}
+  {% render_partial _includes/custom/intro_toc.markdown %}
+  {% endcapture %}
+  {{ intro_aside | markdownify }}
+</section>
