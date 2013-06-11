@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hacking diabetes</title>
+  <title>what - Hacking diabetes</title>
   <meta name="author" content="Medevice">
 
   
-  <meta name="description" content="Insulaudit Agent * proxy modem: beaglebone + 3g modem + glucomter or insulin pump
-* securely proxy big data health services in the cloud Let&rsquo;s &hellip;">
+  <meta name="description" content="What Jun 11th, 2013 Diabetes Data Bus There&rsquo;s a rising notion of a diabetes data bus. A system
+which integrates data collected from a variety &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://medevice.github.io/diabetes">
+  <link rel="canonical" href="http://medevice.github.io/diabetes/what">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Hacking diabetes" type="application/atom+xml">
@@ -67,19 +67,87 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article role="article">
   
-  
-  
-    <article>
-      
   <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/06/11/insulaudit-agent/">Insulaudit-agent</a></h1>
-    
-    
+    <h1 class="entry-title">What</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-11T14:44:00-07:00" pubdate data-updated="true">Jun 11<span>th</span>, 2013</time></p>
+  </header>
+  
+  <h2>Diabetes Data Bus</h2>
+
+<p>There&rsquo;s a rising notion of a diabetes data bus.  A system
+which integrates data collected from a variety of systems,
+and communicates that data to authorized users.  In
+addition, this infrastructure would support agents from an
+expert systems presenting analyses and simulations of
+expected results.</p>
+
+<p>Diabetics own multiple mobile computers that record
+biometric data on a regular basis.  This typically
+includes a menagerie of glucometers, of which I own at
+least 5, 2 of which are in active rotation at any given
+time.  I also use an insulin pump, like many diabetics,
+and it keeps logs of insulin given, as well as performs
+opaque simulations on expected results.  In addition,
+there are ancillary devices that measure interstitial
+glucose levels on a real-time basis, as well as
+pedometers, sleep monitors, and the list goes on ad
+nauseum.</p>
+
+<p>With so many sources of data critical to managing medical
+therapy, it is impossible to predict the new sources of
+data that will arise.  It&rsquo;s also impossible to replace all
+the existing devices with new devices that are designed to
+cooperate with one another.  However, all existing devices
+have a serial port with which an authorized agent can
+communicate with the device in order to audit therapeutic
+details.  Therefore, it&rsquo;s much easier to adapt existing
+devices into a common framework that knows how to present
+data to expert systems, knows how to store data over time,
+and knows how to keep the user connected to that data in
+ways that allow better decision making.</p>
+
+<p>Despite all the data currently logged by devices, how much
+of it is leveraged to drive ongoing decisions?  The
+proprietary software offered by medical industry offers
+snapshots of interesting data from the past, and then asks
+the user to manually fill in any missing data.  Each
+manufacturer offers a perspective that their software
+knows everything about managing diabetes, and in so doing
+fails to offer a holistic perspective on therapy.</p>
+
+<p>Instead, a data bus accepts input from a variety of
+sources, aggregates it with other available sources, and
+makes it available to the user at any time and any place.
+The user can choose which applications can subscribe to
+data, as well as re-route and transform data into those
+applications.  Indivo already provides the container for
+aggregating a user&rsquo;s data with customizable schema types.
+Cube offers a great presentation engine for arbitrary
+data.  When the two are tweaked to manage the data from
+diabetic therapy, we have a diabetic data bus.</p>
+
+<p>Many parts, loosely coupled.</p>
+
+  
+    <footer>
       <p class="meta">
         
+        
 
 
 
@@ -91,42 +159,25 @@
   
 
 
-<time datetime="2013-06-11T14:39:00-07:00" pubdate data-updated="true">Jun 11<span>th</span>, 2013</time>
+<time datetime="2013-06-11T14:44:00-07:00" pubdate data-updated="true">Jun 11<span>th</span>, 2013</time>
         
       </p>
-    
-  </header>
+      
+        <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://medevice.github.io/diabetes/what/index.html" data-via="" data-counturl="http://medevice.github.io/diabetes/what/index.html" >Tweet</a>
+  
+  
+  
+</div>
 
-
-  <div class="entry-content"><h2>Insulaudit Agent</h2>
-
-<p><img src="https://raw.github.com/medevice-users/diabetes/master/3g-beagle-nextlink.JPG" alt="insulaudit agent" />
-* <a href="https://github.com/bewest/insulaudit/tree/master/hacking">proxy modem: beaglebone + 3g modem + glucomter or insulin pump</a>
-* <a href="https://github.com/bewest/insulaudit-ssh-tools">securely proxy big data health services in the cloud</a>
-  Let&rsquo;s have a  market place auction for the best features, not for
-  access, and not for safety.  The user always retains complete
-  control over their devices, and their data.</p>
-
-<p>End the upload problem!</p>
-
-<div><script src='https://gist.github.com/5736620.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
-
-
+      
+    </footer>
+  
+</article>
 
 </div>
-  
-  
 
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
 <aside class="sidebar">
   
     <section>
@@ -165,6 +216,7 @@
 
   
 </aside>
+
 
     </div>
   </div>

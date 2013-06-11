@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hacking diabetes</title>
+  <title>intro - Hacking diabetes</title>
   <meta name="author" content="Medevice">
 
   
-  <meta name="description" content="Insulaudit Agent * proxy modem: beaglebone + 3g modem + glucomter or insulin pump
-* securely proxy big data health services in the cloud Let&rsquo;s &hellip;">
+  <meta name="description" content="Intro Jun 11th, 2013 Firmware For new devices, and to audit old devices.
+* proxy modem: beaglebone + 3g modem + glucomter or insulin pump Includes &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://medevice.github.io/diabetes">
+  <link rel="canonical" href="http://medevice.github.io/diabetes/intro/firmware.html">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Hacking diabetes" type="application/atom+xml">
@@ -67,19 +67,52 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article role="article">
   
-  
-  
-    <article>
-      
   <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/06/11/insulaudit-agent/">Insulaudit-agent</a></h1>
-    
-    
+    <h1 class="entry-title">Intro</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-11T12:59:00-07:00" pubdate data-updated="true">Jun 11<span>th</span>, 2013</time></p>
+  </header>
+  
+  <h2>Firmware</h2>
+
+<p>For new devices, and to audit old devices.
+* <a href="https://github.com/bewest/insulaudit/tree/master/hacking">proxy modem: beaglebone + 3g modem + glucomter or insulin pump</a>
+  Includes pictures of working beaglebone, orchestrating the &ldquo;data bus&rdquo; between
+  several connected devices, and the internet at large.
+* <a href="https://github.com/n-west/insulware">insulware</a> &ndash; mash up
+  beaglebone, meta-insulaudit, and insulaudit altogether in one
+  package to audit gucometers over the internet using 3G!
+* <a href="https://github.com/ehwest/cloudify">registration scripts</a> &ndash; demo
+  app to send SMS messages for registered users to [insulware]
+* <a href="https://github.com/bewest/insulaudit-ssh-tools">insulaudit in the cloud</a>
+  Considering extending gitolite.  ssh based application that
+  sets up a transport, then uses insulaudit or related tools.</p>
+
+<ul>
+<li><p><a href="https://github.com/n-west/meta-insulaudit">open embedded beaglebone firmware</a></p></li>
+<li><p><a href="https://github.com/n-west/meta-h8">open embed h8 stub</a> for giggles <code>;-)</code></p></li>
+</ul>
+
+
+  
+    <footer>
       <p class="meta">
         
+        
 
 
 
@@ -91,42 +124,25 @@
   
 
 
-<time datetime="2013-06-11T14:39:00-07:00" pubdate data-updated="true">Jun 11<span>th</span>, 2013</time>
+<time datetime="2013-06-11T12:59:00-07:00" pubdate data-updated="true">Jun 11<span>th</span>, 2013</time>
         
       </p>
-    
-  </header>
+      
+        <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://medevice.github.io/diabetes/intro/firmware.html" data-via="" data-counturl="http://medevice.github.io/diabetes/intro/firmware.html" >Tweet</a>
+  
+  
+  
+</div>
 
-
-  <div class="entry-content"><h2>Insulaudit Agent</h2>
-
-<p><img src="https://raw.github.com/medevice-users/diabetes/master/3g-beagle-nextlink.JPG" alt="insulaudit agent" />
-* <a href="https://github.com/bewest/insulaudit/tree/master/hacking">proxy modem: beaglebone + 3g modem + glucomter or insulin pump</a>
-* <a href="https://github.com/bewest/insulaudit-ssh-tools">securely proxy big data health services in the cloud</a>
-  Let&rsquo;s have a  market place auction for the best features, not for
-  access, and not for safety.  The user always retains complete
-  control over their devices, and their data.</p>
-
-<p>End the upload problem!</p>
-
-<div><script src='https://gist.github.com/5736620.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
-
-
+      
+    </footer>
+  
+</article>
 
 </div>
-  
-  
 
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
 <aside class="sidebar">
   
     <section>
@@ -165,6 +181,7 @@
 
   
 </aside>
+
 
     </div>
   </div>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: agent | Hacking diabetes]]></title>
+  <link href="http://medevice.github.io/diabetes/blog/categories/agent/atom.xml" rel="self"/>
+  <link href="http://medevice.github.io/diabetes/"/>
+  <updated>2013-06-11T15:27:50-07:00</updated>
+  <id>http://medevice.github.io/diabetes/</id>
+  <author>
+    <name><![CDATA[Medevice]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[insulaudit-agent]]></title>
+    <link href="http://medevice.github.io/diabetes/blog/2013/06/11/insulaudit-agent/"/>
+    <updated>2013-06-11T14:39:00-07:00</updated>
+    <id>http://medevice.github.io/diabetes/blog/2013/06/11/insulaudit-agent</id>
+    <content type="html"><![CDATA[<h2>Insulaudit Agent</h2>
+
+<p><img src="https://raw.github.com/medevice-users/diabetes/master/3g-beagle-nextlink.JPG" alt="insulaudit agent" />
+* <a href="https://github.com/bewest/insulaudit/tree/master/hacking">proxy modem: beaglebone + 3g modem + glucomter or insulin pump</a>
+* <a href="https://github.com/bewest/insulaudit-ssh-tools">securely proxy big data health services in the cloud</a>
+  Let&rsquo;s have a  market place auction for the best features, not for
+  access, and not for safety.  The user always retains complete
+  control over their devices, and their data.</p>
+
+<p>End the upload problem!</p>
+
+<p><div><script src='https://gist.github.com/5736620.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+]]></content>
+  </entry>
+  
+</feed>
