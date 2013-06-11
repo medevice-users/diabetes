@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://medevice.github.io/diabetes/sitemap.xml 
+Sitemap: http://medevice-users.github.io/diabetes/sitemap.xml 

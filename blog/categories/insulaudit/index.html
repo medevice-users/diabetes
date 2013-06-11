@@ -18,14 +18,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://medevice.github.io/diabetesblog/categories/insulaudit">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link rel="canonical" href="http://medevice-users.github.io/diabetesblog/categories/insulaudit">
+  <link href="/diabetes/favicon.png" rel="icon">
+  <link href="/diabetes/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Hacking diabetes" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/diabetes/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <script src="/diabetes/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -36,7 +36,7 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">Hacking diabetes</a></h1>
+  <h1><a href="/diabetes/">Hacking diabetes</a></h1>
   
     <h2>Raising fidelity of care.</h2>
   
@@ -50,17 +50,17 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:medevice.github.io/diabetes" />
+    <input type="hidden" name="q" value="site:medevice-users.github.io/diabetes" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/intro">Intro</a></li>
-  <li><a href="/">Blog</a></li>
-  <li><a href="/what">What we're doing</a></li>
-  <li><a href="/why">Why do this</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/diabetes/intro">Intro</a></li>
+  <li><a href="/diabetes/">Blog</a></li>
+  <li><a href="/diabetes/what">What we're doing</a></li>
+  <li><a href="/diabetes/why">Why do this</a></li>
+  <li><a href="/diabetes/blog/archives">Archives</a></li>
 </ul>
 
 </nav>
@@ -83,11 +83,11 @@
 
 <article>
   
-<h1><a href="/blog/2013/06/11/insulaudit-agent/">insulaudit-agent</a></h1>
+<h1><a href="/diabetes/blog/2013/06/11/insulaudit-agent/">insulaudit-agent</a></h1>
 <time datetime="2013-06-11T14:39:00-07:00" pubdate><span class='month'>Jun</span> <span class='day'>11</span> <span class='year'>2013</span></time>
 
 <footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/agent/'>agent</a>, <a class='category' href='/blog/categories/insulaudit/'>insulaudit</a></span>
+  <span class="categories">posted in <a class='category' href='/diabetes/blog/categories/agent/'>agent</a>, <a class='category' href='/diabetes/blog/categories/insulaudit/'>insulaudit</a></span>
 </footer>
 
 
@@ -107,10 +107,39 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/06/11/insulaudit-agent/">Insulaudit-agent</a>
+        <a href="/diabetes/blog/2013/06/11/insulaudit-agent/">Insulaudit-agent</a>
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/medevice">@medevice</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'medevice',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/diabetes/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
@@ -121,16 +150,16 @@
   <p>Many hands make light work.</p>
   
   <ul>
-<li><a href="/intro/visualizations.html">Visualizations</a></li>
-<li><a href="/intro/firmware.html">Firmware</a></li>
-<li><a href="/intro/hardware.html">Hardware</a></li>
-<li><a href="/intro/backend.html">Backend</a></li>
-<li><a href="/intro/vendors.html">Vendor transports</a></li>
-<li><a href="/intro/math.html">Math</a></li>
-<li><a href="/intro/devices.html">Device IO and decoder rings</a></li>
+<li><a href="/diabetes/intro/visualizations.html">Visualizations</a></li>
+<li><a href="/diabetes/intro/firmware.html">Firmware</a></li>
+<li><a href="/diabetes/intro/hardware.html">Hardware</a></li>
+<li><a href="/diabetes/intro/backend.html">Backend</a></li>
+<li><a href="/diabetes/intro/vendors.html">Vendor transports</a></li>
+<li><a href="/diabetes/intro/math.html">Math</a></li>
+<li><a href="/diabetes/intro/devices.html">Device IO and decoder rings</a></li>
 <li>Web Development this site among others!</li>
-<li><a href="/intro/projects.html">other projects</a></li>
-<li><a href="/intro/governance.html">governance</a></li>
+<li><a href="/diabetes/intro/projects.html">other projects</a></li>
+<li><a href="/diabetes/intro/governance.html">governance</a></li>
 </ul>
 
 
@@ -152,7 +181,24 @@
 
 
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
 
 
 

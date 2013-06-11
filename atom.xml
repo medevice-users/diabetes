@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Hacking diabetes]]></title>
-  <link href="http://medevice.github.io/diabetes/atom.xml" rel="self"/>
-  <link href="http://medevice.github.io/diabetes/"/>
-  <updated>2013-06-11T15:27:50-07:00</updated>
-  <id>http://medevice.github.io/diabetes/</id>
+  <link href="http://medevice-users.github.io/diabetes/atom.xml" rel="self"/>
+  <link href="http://medevice-users.github.io/diabetes/"/>
+  <updated>2013-06-11T15:32:14-07:00</updated>
+  <id>http://medevice-users.github.io/diabetes/</id>
   <author>
     <name><![CDATA[Medevice]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[insulaudit-agent]]></title>
-    <link href="http://medevice.github.io/diabetes/blog/2013/06/11/insulaudit-agent/"/>
+    <link href="http://medevice-users.github.io/diabetes/blog/2013/06/11/insulaudit-agent/"/>
     <updated>2013-06-11T14:39:00-07:00</updated>
-    <id>http://medevice.github.io/diabetes/blog/2013/06/11/insulaudit-agent</id>
+    <id>http://medevice-users.github.io/diabetes/blog/2013/06/11/insulaudit-agent</id>
     <content type="html"><![CDATA[<h2>Insulaudit Agent</h2>
 
 <p><img src="https://raw.github.com/medevice-users/diabetes/master/3g-beagle-nextlink.JPG" alt="insulaudit agent" />
